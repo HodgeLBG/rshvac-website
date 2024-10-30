@@ -2,11 +2,17 @@ body {
     font-family: Arial, sans-serif;
     background-color: black;
     margin: 0;
-    padding: 0;
+    padding: 100px;
 }
 
 h1 {
-    color: gold;
+    color: goldenrod;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: whitesmoke;
     text-align: center;
     padding: 20px;
 }
@@ -15,4 +21,37 @@ p {
     color: white;
     padding: 10px;
     line-height: 1.5;
+}
+
+ul {
+    color: white;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+form {
+    color: white;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.indented-text {
+    padding-left: 20px; 
+}
+
+.image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px; /* Optional: Add some padding around the image */
+}
+
+.image-container img {
+    width: 200px; /* Adjust size as needed */
+    height: auto; 
+}
+
+.content {
+    padding: 20px;
+    margin-top: 200px; /* Adjust to provide space below the image */
 }
